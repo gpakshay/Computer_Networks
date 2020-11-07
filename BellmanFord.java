@@ -43,8 +43,7 @@ System.out.println("The Graph contains negative egde cycle");
 }
 for (int vertex = 1; vertex <= num_ver; vertex++)
 {
-System.out.println("distance of source " + source + " to "+ vertex + "
-is " + D[vertex]);
+System.out.println("distance of source " + source + " to "+ vertex + " is " + D[vertex]);
 }
 }
 public static void main(String[ ] args)
@@ -79,26 +78,3 @@ b.BellmanFordEvaluation(source, A);
 scanner.close();
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
