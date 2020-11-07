@@ -10,7 +10,7 @@ DataOutputStream out = null;
 DataInputStream in;
 try
 {
- server = new ServerSocket(6000, 1); //port number and num of connections
+ server = new ServerSocket(6000, 1); 
 System.out.println("Server Waiting for client");
 Socket socket = server.accept();
 System.out.println("Client connected ");
